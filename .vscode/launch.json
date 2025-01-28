@@ -6,7 +6,7 @@
   "configurations": [
     {
       "name": "WebUI",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${file}",
       "cwd": "/stable-diffusion",
