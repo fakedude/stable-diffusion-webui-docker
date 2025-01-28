@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 mkdir -p data/.cache data/StableDiffusion data/Codeformer data/GFPGAN data/ESRGAN data/BSRGAN data/RealESRGAN data/SwinIR data/LDSR data/embeddings
 
 cp -vf cache/models/model.ckpt data/StableDiffusion/model.ckpt

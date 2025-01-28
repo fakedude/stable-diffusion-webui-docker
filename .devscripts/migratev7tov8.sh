@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -Eeuo pipefail
 
@@ -14,7 +14,6 @@ mv -v ./data/hypernetworks1 ./data/hypernetworks
 
 mv -v ./data/MiDaS ./data/midas1
 mv -v ./data/midas1 ./data/midas
-
 
 echo "Moving folders..."
 
