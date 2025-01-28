@@ -1,5 +1,26 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Feature request? Questions regarding some extension?
-    url: https://github.com/AbdBarho/stable-diffusion-webui-docker/discussions
-    about: Please use the discussions tab
+name: Tracking issue
+description: File a bug report.
+title: "[DATE]: [FEATURE NAME]"
+labels: ["bug", "triage"]
+assignees: octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: A clear and concise title of what the bug is.
+      placeholder: Bug title
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug
+    validations:
+      required: true
