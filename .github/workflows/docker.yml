@@ -16,7 +16,7 @@ jobs:
   build:
     strategy:
       matrix:
-        profile: [auto, comfy, download]
+        profile: [automatic, comfy, download]
     runs-on: ubuntu-latest
     name: ${{ matrix.profile }}
     steps:
